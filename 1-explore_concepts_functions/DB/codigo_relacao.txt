@@ -1,0 +1,5 @@
+ALTER TABLE `persons`
+	ADD CONSTRAINT `FK_persons_categories` FOREIGN KEY (`idPerson`) REFERENCES `categories` (`idCategory`) ON UPDATE NO ACTION ON DELETE NO ACTION;
+	
+
+Código entre as duas tabelas

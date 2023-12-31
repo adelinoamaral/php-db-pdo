@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>User Registration with Email Verification in PHP</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header text-center">
+                Regista Utilizador com Verificação do Email
+            </div>
+            <div class="card-body">
+                <form action="store-registration-send-email.php" method="post">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Nome Utilizador</label>
+                        <input type="text" name="username" class="form-control" id="name" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            required="">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Senha</label>
+                        <input type="password" name="password" class="form-control" id="password" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Confirma Senha</label>
+                        <input type="password" name="cpassword" class="form-control" id="cpassword" required="">
+                    </div>
+                    <input type="submit" name="password-reset-token" class="btn btn-primary mt-3">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

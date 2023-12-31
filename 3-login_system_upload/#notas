@@ -1,0 +1,4 @@
+## NOMES PARA AS IMAGENS NA PASTA UPLOAD    
+Atribuir nomes às imagens em disco e na base de dados para que estas sejam únicas.
+Analisar o registar.php e atualizar outros se for caso disso.
+Outro caso consiste em acrescentar o id antes ou depois do nome da imagem ????
